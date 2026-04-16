@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+
+# Model weights (too large for GitHub)
+models/*.pt
+models/*.model
+models/*.bin
+
+# Data files (auto-downloaded)
+data/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Mac system files
+.DS_Store
+
+# HuggingFace cache
+~/.cache/huggingface/
